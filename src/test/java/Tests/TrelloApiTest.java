@@ -9,7 +9,7 @@ import utils.ConfReader;
 import java.util.Random;
 import static io.restassured.RestAssured.given;
 
-public class ApiTest extends Log {
+public class TrelloApiTest extends Log {
 
     String key = ConfReader.get("apiKey");
     String token = ConfReader.get("token");
@@ -22,7 +22,7 @@ public class ApiTest extends Log {
 
 
     @Test
-    public void CreateBoard() {
+    public void testTrelloApi() {
         logger.info("1. Create trello board");
         String createUrl = baseTrelloURI + "/boards?token=" + token + "&key=" + key + "&name=" + boardName;
         Response response = given().contentType(ContentType.JSON).when().post(createUrl);
