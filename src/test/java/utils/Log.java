@@ -2,8 +2,6 @@ package utils;
 
 import org.apache.log4j.xml.DOMConfigurator;
 import org.junit.jupiter.api.*;
-
-
 import org.apache.log4j.Logger;
 
 
