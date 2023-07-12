@@ -1,0 +1,10 @@
+2023-07-12 19:06:35,903 INFO  [Log] 1. Create trello board 
+2023-07-12 19:06:40,407 INFO  [Log] Trello board created successfully! 
+2023-07-12 19:06:40,407 INFO  [Log] 2. Create trello cards 
+2023-07-12 19:06:42,017 INFO  [Log] Trello cards created successfully! 
+2023-07-12 19:06:42,017 INFO  [Log] 3. Update random a card name 
+2023-07-12 19:06:42,474 INFO  [Log] Cart name updated successfully! 
+2023-07-12 19:06:42,474 INFO  [Log] 4. Delete created cards 
+2023-07-12 19:06:43,906 INFO  [Log] Carts deleted successfully! 
+2023-07-12 19:06:43,906 INFO  [Log] 5. Delete trello board 
+2023-07-12 19:06:45,286 INFO  [Log] Trello board deleted successfully 
