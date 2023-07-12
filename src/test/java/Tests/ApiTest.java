@@ -6,9 +6,7 @@ import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import utils.Log;
 import utils.ConfReader;
-
 import java.util.Random;
-
 import static io.restassured.RestAssured.given;
 
 public class ApiTest extends Log {
